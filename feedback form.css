@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f4f6f9;
+    margin-top: 50px;   
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.feedback-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.rating span {
+    font-size: 30px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.rating span.active {
+    color: rgb(255, 217, 0);
+}
+.textarea{
+    height: 100px;
+    width: 100%;
+    border-radius: 4px;
+}
+.button{
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(61, 61, 254);
+    color: white;
+    margin-top: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+.message{
+    display: flex;
+     justify-content: center;
+}
